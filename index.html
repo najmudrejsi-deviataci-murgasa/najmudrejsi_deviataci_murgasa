@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<figure class="card tilt"><img src="assets/img/gallery-04.jpg" alt="Vianočná besiedka" loading="lazy"><figcaption>Vianočná besiedka</figcaption></figure>
+<figure class="card tilt"><img src="assets/img/gallery-05.jpg" alt="Školský ples" loading="lazy"><figcaption>Školský ples</figcaption></figure>
+<figure class="card tilt"><img src="assets/img/gallery-06.jpg" alt="Exkurzia" loading="lazy"><figcaption>Exkurzia</figcaption></figure>
+</div>
+</div>
+</section>
+
+
+<!-- TIMELINE -->
+<section class="timeline reveal" id="timeline">
+<div class="container">
+<h2>Časová os</h2>
+<ol class="timeline__list">
+<li>
+<div class="dot"></div>
+<div class="content">
+<h3>1. ročník <small>(2016/17)</small></h3>
+<p>Prvé lavice, prvé písmenká a veľké kamarátsva.</p>
+</div>
+</li>
+<li>
+<div class="dot"></div>
+<div class="content">
+<h3>5. ročník <small>(2020/21)</small></h3>
+<p>Prechod na 2. stupeň a online vyučovanie — výzva, ktorú sme dali!</p>
+</div>
+</li>
+<li>
+<div class="dot"></div>
+<div class="content">
+<h3>9. ročník <small>(2024/25)</small></h3>
+<p>Posledný zvonec, prijímačky a veľká rozlúčka.</p>
+</div>
+</li>
+</ol>
+</div>
+</section>
+
+
+<!-- STUDENTS -->
+<section class="students reveal" id="students">
+<div class="container">
+<h2>Naša partia</h2>
+<div class="students__grid" id="studentsGrid">
+<!-- Vygeneruje sa cez JS zoznamom v main.js (studentsData) -->
+</div>
+</div>
+</section>
+
+
+<!-- GUESTBOOK -->
+<section class="guestbook reveal" id="guestbook">
+<div class="container">
+<h2>Návštevná kniha</h2>
+<form class="guestbook__form" id="guestbookForm">
+<input type="text" name="name" placeholder="Tvoje meno" required />
+<textarea name="message" rows="3" placeholder="Napíš odkaz pre triedu" required></textarea>
+<button class="btn btn--primary" type="submit">Pridať odkaz</button>
+</form>
+<ul class="guestbook__list" id="guestbookList"></ul>
+<p class="muted">Pozn.: Ukladá sa len do tvojho prehliadača (localStorage). Na zdieľané odkazy by sme potrebovali jednoduché backend riešenie — môžem doplniť.</p>
+</div>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<div class="container">
+<p>© <span id="year"></span> 9.A — Ročenka. Vyrobil/a <a href="#" rel="nofollow">…</a></p>
+</div>
+</footer>
+
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
